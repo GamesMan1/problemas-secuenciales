@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2.3 — Cálculo de edad</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="problem-header">
+      <p class="problem-number">Problema 2.3</p>
+      <h1 class="problem-title">Cálculo de edad</h1>
+    </header>
+
+    <div class="card">
+      <p class="card-title">Datos</p>
+
+      <div class="field">
+        <label for="anioNacimiento">Año de nacimiento</label>
+        <input type="number" id="anioNacimiento" min="1900" placeholder="ej. 1995" />
+        <p class="error-msg" id="errAnio">Ingresa un año válido.</p>
+      </div>
+
+      <button class="btn-primary" onclick="calcularEdad()">Calcular</button>
+
+      <div class="result-block" id="resultBlock">
+        <div class="result-total">
+          <span class="label">Edad</span>
+          <span class="amount" id="resEdad">—</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="../scripts/p2.3.js"></script>
+</body>
+</html>

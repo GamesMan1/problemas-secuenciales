@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2.1 — Área de un triángulo</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="problem-header">
+      <p class="problem-number">Problema 2.1</p>
+      <h1 class="problem-title">Área de un triángulo</h1>
+    </header>
+
+    <div class="card">
+      <p class="card-title">Datos</p>
+
+      <div class="field">
+        <label for="base">Base</label>
+        <input type="number" id="base" min="0" step="any" placeholder="ej. 10" />
+        <p class="error-msg" id="errBase">Ingresa una base válida (> 0).</p>
+      </div>
+
+      <div class="field">
+        <label for="altura">Altura</label>
+        <input type="number" id="altura" min="0" step="any" placeholder="ej. 5" />
+        <p class="error-msg" id="errAltura">Ingresa una altura válida (> 0).</p>
+      </div>
+
+      <button class="btn-primary" onclick="calcularArea()">Calcular</button>
+
+      <div class="result-block" id="resultBlock">
+        <div class="result-total">
+          <span class="label">Área</span>
+          <span class="amount" id="resArea">—</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="../scripts/p2.1.js"></script>
+</body>
+</html>

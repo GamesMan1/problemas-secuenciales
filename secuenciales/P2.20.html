@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2.20 — Hotel Cama Arena</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="problem-header">
+      <p class="problem-number">Problema 2.20</p>
+      <h1 class="problem-title">Hotel "Cama Arena"</h1>
+    </header>
+
+    <div class="card">
+      <p class="card-title">Datos de la estancia</p>
+
+      <div class="field">
+        <label for="noches">Número de noches</label>
+        <input type="number" id="noches" min="1" placeholder="ej. 3" />
+        <p class="error-msg" id="errNoches">Ingresa un número válido (≥ 1).</p>
+      </div>
+
+      <button class="btn-primary" onclick="calcularCobro()">Calcular</button>
+
+      <div class="result-block" id="resultBlock">
+        <div class="result-row"><span>Noches</span><span id="resNoches">—</span></div>
+        <div class="result-row"><span>Subtotal</span><span id="resSubtotal">—</span></div>
+        <div class="result-row"><span>IVA (16%)</span><span id="resIva">—</span></div>
+        <div class="result-total">
+          <span class="label">Total a cobrar</span>
+          <span class="amount" id="resTotal">—</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="../scripts/p2.20.js"></script>
+</body>
+</html>

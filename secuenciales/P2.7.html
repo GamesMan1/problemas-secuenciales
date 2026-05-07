@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2.7 — La curva loca</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="problem-header">
+      <p class="problem-number">Problema 2.7</p>
+      <h1 class="problem-title">Autobuses "La curva loca"</h1>
+    </header>
+
+    <div class="card">
+      <p class="card-title">Datos del viaje</p>
+
+      <div class="field">
+        <label for="kilometros">Kilómetros a recorrer</label>
+        <input type="number" id="kilometros" min="0" step="any" placeholder="ej. 120" />
+        <p class="error-msg" id="errKm">Ingresa una distancia válida (> 0).</p>
+      </div>
+
+      <div class="field">
+        <label for="costoPorKm">Costo por kilómetro ($)</label>
+        <input type="number" id="costoPorKm" min="0" step="any" placeholder="ej. 1.50" />
+        <p class="error-msg" id="errCosto">Ingresa un costo válido (> 0).</p>
+      </div>
+
+      <button class="btn-primary" onclick="calcularBoleto()">Calcular</button>
+
+      <div class="result-block" id="resultBlock">
+        <div class="result-row"><span>Distancia</span><span id="resKm">—</span></div>
+        <div class="result-row"><span>Costo por km</span><span id="resCostoPorKm">—</span></div>
+        <div class="result-total">
+          <span class="label">Costo del boleto</span>
+          <span class="amount" id="resTotal">—</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="../scripts/P2.7.js"></script>
+</body>
+</html>

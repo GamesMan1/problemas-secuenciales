@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problemas Secuenciales</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <style>
+    .problem-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .problem-link {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.85rem 1.1rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      text-decoration: none;
+      color: var(--text-primary);
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .problem-link:hover {
+      border-color: var(--accent);
+      background: var(--bg-secondary);
+    }
+
+    .problem-link .num {
+      font-family: monospace;
+      font-size: 0.75rem;
+      color: var(--accent);
+      min-width: 2.5rem;
+    }
+
+    .problem-link .desc {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="problem-header">
+      <p class="problem-number">Índice</p>
+      <h1 class="problem-title">Problemas Secuenciales</h1>
+    </header>
+
+    <div class="card">
+      <p class="card-title">Selecciona un problema</p>
+      <nav class="problem-list">
+        <a class="problem-link" href="secuenciales/P2.1.html">
+          <span class="num">2.1</span>
+          <span class="desc">Área de un triángulo</span>
+        </a>
+        <a class="problem-link" href="secuenciales/P2.2.html">
+          <span class="num">2.2</span>
+          <span class="desc">Conversión MXN → USD</span>
+        </a>
+        <a class="problem-link" href="secuenciales/P2.3.html">
+          <span class="num">2.3</span>
+          <span class="desc">Cálculo de edad</span>
+        </a>
+        <a class="problem-link" href="secuenciales/P2.4.html">
+          <span class="num">2.4</span>
+          <span class="desc">Cobro de estacionamiento</span>
+        </a>
+        <a class="problem-link" href="secuenciales/P2.5.html">
+          <span class="num">2.5</span>
+          <span class="desc">Pinturas "La brocha gorda"</span>
+        </a>
+        <a class="problem-link" href="secuenciales/P2.6.html">
+          <span class="num">2.6</span>
+          <span class="desc">Hipotenusa de un triángulo rectángulo</span>
+        </a>
+        <a class="problem-link" href="secuenciales/P2.7.html">
+          <span class="num">2.7</span>
+          <span class="desc">Autobuses "La curva loca"</span>
+        </a>
+        <a class="problem-link" href="secuenciales/P2.8.html">
+          <span class="num">2.8</span>
+          <span class="desc">Tiempo de viaje en bicicleta</span>
+        </a>
+        <a class="problem-link" href="secuenciales/P2.9.html">
+          <span class="num">2.9</span>
+          <span class="desc">Costo de llamada telefónica</span>
+        </a>
+        <a class="problem-link" href="secuenciales/P2.20.html">
+          <span class="num">2.20</span>
+          <span class="desc">Hotel "Cama Arena"</span>
+        </a>
+      </nav>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2.2 — Conversión MXN a USD</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="problem-header">
+      <p class="problem-number">Problema 2.2</p>
+      <h1 class="problem-title">Conversión MXN → USD</h1>
+    </header>
+
+    <div class="card">
+      <p class="card-title">Datos</p>
+
+      <div class="field">
+        <label for="tipoCambio">Tipo de cambio (pesos por dólar)</label>
+        <input type="number" id="tipoCambio" min="0" step="any" placeholder="ej. 17.50" />
+        <p class="error-msg" id="errTipoCambio">Ingresa un tipo de cambio válido (> 0).</p>
+      </div>
+
+      <div class="field">
+        <label for="pesos">Cantidad en pesos (MXN)</label>
+        <input type="number" id="pesos" min="0" step="any" placeholder="ej. 5000" />
+        <p class="error-msg" id="errPesos">Ingresa una cantidad válida (> 0).</p>
+      </div>
+
+      <button class="btn-primary" onclick="convertir()">Calcular</button>
+
+      <div class="result-block" id="resultBlock">
+        <div class="result-total">
+          <span class="label">Dólares obtenidos</span>
+          <span class="amount" id="resDolares">—</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="../scripts/p2.2.js"></script>
+</body>
+</html>

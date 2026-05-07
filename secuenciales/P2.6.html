@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2.6 — Hipotenusa</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="problem-header">
+      <p class="problem-number">Problema 2.6</p>
+      <h1 class="problem-title">Hipotenusa de un triángulo rectángulo</h1>
+    </header>
+
+    <div class="card">
+      <p class="card-title">Datos</p>
+
+      <div class="field">
+        <label for="catA">Cateto A</label>
+        <input type="number" id="catA" min="0" step="any" placeholder="ej. 3" />
+        <p class="error-msg" id="errA">Ingresa un valor válido (> 0).</p>
+      </div>
+
+      <div class="field">
+        <label for="catB">Cateto B</label>
+        <input type="number" id="catB" min="0" step="any" placeholder="ej. 4" />
+        <p class="error-msg" id="errB">Ingresa un valor válido (> 0).</p>
+      </div>
+
+      <button class="btn-primary" onclick="calcularHipotenusa()">Calcular</button>
+
+      <div class="result-block" id="resultBlock">
+        <div class="result-total">
+          <span class="label">Hipotenusa (C)</span>
+          <span class="amount" id="resHipotenusa">—</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="../scripts/P2.6.js"></script>
+</body>
+</html>
