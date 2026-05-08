@@ -1,4 +1,3 @@
-El código está en el branch master
 # Datos
 - Nombre: Jesús Eduardo Loya Lazos
 - Grado y grupo: 4°F
