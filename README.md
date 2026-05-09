@@ -1,8 +1,18 @@
-# Datos
-- Nombre: Jesús Eduardo Loya Lazos
-- Grado y grupo: 4°F
-- Escuela: CBTis 122
-# Práctica
+# 📝 Registro de Ejercicios - Identificación del Alumno
+
+## 👤 Datos del Alumno
+| Campo | Información |
+|-------|-------------|
+| Nombre completo | Jesús Eduardo Loya Lazos |
+| Número de control | 24308051220578 |
+| Grupo | F |
+| Grado | 4 |
+| Escuela | CBTis 122 |
+| Especialidad | Programación |
+
+## 📘 Información del Ejercicio
+- Título del ejercicio: Problemas secuenciales
+- Descripción:  
 - 2.20 El hotel “Cama Arena” requiere determinar lo que le debe cobrar a un huésped por su estancia en una de sus habitaciones. Realice una pagina web con css y js que de solución para determinar ese cobro
 - 2.1 Realice una página web con JS que representen el algoritmo para obtener el área de un triángulo.
 - 2.2 Una empresa importadora desea determinar cuántos dólares puede adquirir con equis cantidad de dinero mexicano. Realice una página web con JS que representen el algoritmo para tal fin.
